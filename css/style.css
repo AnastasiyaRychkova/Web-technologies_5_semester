@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i,700|Work+Sans:400,500,700');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ff8c3f7c;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  background-color: #f6f6f6;
+  color: #171717;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 35px;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 21px;
+}
+
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.container-wide { 
+  margin: 0 auto;
+  width: 1170px;
+  text-align: center;
+}
+
+.container-narrow {
+  margin: 0 auto;
+  width: 765px;
+  text-align: center;
+}
+
+/*  --- HEADER ---   */
+.header {
+  padding-top: 38px;
+  padding-bottom: 62px;
+  /* height: 670px; */
+  background-color: #636363;
+  color: #fff;
+}
+
+.logo {
+  float: left;
+  width: 82px;
+  height: 32px;
+}
+
+.menu-btn {
+  float: right;
+  width: 20px;
+  height: 16px;
+}
+
+.banner {
+  margin-top: 225px;
+}
+
+.banner > h5 {
+  margin-bottom: 30px;
+}
+
+.arrow {
+  margin-top: 145px;
+}
+
+/*  --- ABOUT ---   */
+.about {
+  padding: 95px 0;
+}
+
+.about-text > h2 {
+  margin-bottom: 38px;
+}
+.about-text > p {
+  line-height: 1.6;
+}
+
+.about-text::after {
+  content: "";
+  display: inline-block;
+  margin-top: 36px;
+  width: 223px;
+  height: 57px;
+  background-image: url("img/signature.png");
+  background-repeat: no-repeat;
+}
+
+/*  --- NUMBERS ---   */
+.numbers {
+  padding: 120px 0 94px;
+  background-color: #636363;
+  color: #fff;
+}
+
+.numbers-items {
+  display: table;
+  width: 100%;
+}
+
+.numbers-item {
+  display: table-cell;
+  position: relative;
+  padding-left: 68px;
+  text-align: left;
+}
+
+.numbers-item-img {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 44px;
+  height: 41px; 
+  background-image: url("img/numbers-img.png");
+  background-repeat: no-repeat;
+}
+
+.numbers-item-portfolio {
+  background-position-x: 0;
+}
+
+.numbers-item-clock {
+  background-position-x: -46px;
+}
+
+.numbers-item-star {
+  background-position-x: -92px;
+}
+
+.numbers-item-like {
+  background-position-x: -138px;
+}
+
+.numbers-item > h5:first-of-type {
+  font-size: 18px;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+/*  --- BEST PROJECTS ---   */
+.best-projects {
+  padding: 90px 0 98px;
+}
+
+.best-projects-title {
+  margin-bottom: 55px;
+}
+
+.best-projects-text {
+  line-height: 1.6;
+}
