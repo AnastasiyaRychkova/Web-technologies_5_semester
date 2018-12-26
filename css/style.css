@@ -177,3 +177,43 @@ h5 {
 .best-projects-text {
   line-height: 1.6;
 }
+
+.best-projects-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "r1c1 r1c2 r1c3" "r2c1 r1c2 r2c3" "r3c1 VR-r3c2 r2c3" "r3c1 r4c2 r4c3";
+  grid-gap: 30px;
+  height: 1090px;
+}
+
+.gallery-photo {
+  background-color: #d9d9d9;
+}
+
+.r1c1 { grid-area: r1c1; }
+
+.r1c2 { grid-area: r1c2; }
+
+.r1c3 { grid-area: r1c3; }
+
+.r2c1 { grid-area: r2c1; }
+
+.r2c3 { grid-area: r2c3; }
+
+.VR-r3c2 { 
+  grid-area: VR-r3c2; 
+  padding-top: 100px;
+  background-color: #f9f9f9;
+}
+
+.r3c1 { grid-area: r3c1; }
+
+.r4c2 { grid-area: r4c2; }
+
+.r4c3 { grid-area: r4c3; }
+
+.gallery-photo > h3 {
+  margin-bottom: 20px;
+}
+
