@@ -110,7 +110,7 @@ h5 {
   margin-top: 36px;
   width: 223px;
   height: 57px;
-  background-image: url("img/signature.png");
+  background-image: url("../img/signature.png");
   background-repeat: no-repeat;
 }
 
@@ -118,6 +118,8 @@ h5 {
 .numbers {
   padding: 120px 0 94px;
   background-color: #636363;
+  background-image: url("../img/pettern_bg1.png");
+  background-repeat: no-repeat;
   color: #fff;
 }
 
@@ -139,7 +141,7 @@ h5 {
   left: 0;
   width: 44px;
   height: 41px; 
-  background-image: url("img/numbers-img.png");
+  background-image: url("../img/numbers-img.png");
   background-repeat: no-repeat;
 }
 
@@ -217,3 +219,22 @@ h5 {
   margin-bottom: 20px;
 }
 
+/*  --- TESTIMONIALS ---   */
+.testimonials{
+  padding: 178px 0 60px;
+  background-color: #636363;
+  background-image: url("../img/pettern_bg1.png");
+  color: #fff;
+}
+
+.quote {
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 33px;
+}
+
+.author {
+  margin-bottom: 105px;
+}
