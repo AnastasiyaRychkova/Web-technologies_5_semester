@@ -238,3 +238,19 @@ h5 {
 .author {
   margin-bottom: 105px;
 }
+
+/*  --- CLIENTS ---   */
+.clients {
+  padding: 64px 0;
+}
+
+.clients-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.client-logo {
+  display: inline-block;
+  padding: 0 35px;
+}
