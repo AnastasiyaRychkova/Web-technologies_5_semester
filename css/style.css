@@ -3,7 +3,7 @@
 *{
   margin: 0;
   padding: 0;
-  border: 1px solid #ff8c3f7c;
+  /* border: 1px solid #ff8c3f7c; */
 }
 
 body {
@@ -255,6 +255,87 @@ h5 {
   padding: 0 35px;
 }
 
+/*  --- CONTACTS ---   */
+.contact {
+  padding: 110px 0 100px;
+}
+
+.contact-info {
+  width: 430px;
+  float: left;
+  text-align: left;
+}
+
+.contact-form {
+  width: 670px;
+  float: right;
+}
+
+.contact .container-wide {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.contact-info h2 {
+  margin-bottom: 38px;
+}
+
+.form-info {
+  margin-bottom: 35px;
+  line-height: 22px;
+}
+
+.contacts p {
+  margin-bottom: 18px;
+}
+
+.field {
+  display: block;
+  margin-bottom: 30px;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  color: #999999;
+  line-height: 18px;
+}
+
+#fullname {
+  float: left;
+  width: 320px;
+}
+
+#email {
+  float: right;
+  width: 320px;
+}
+
+.contact-form textarea {
+  min-height: 170px;
+}
+
+.contact-form-1-row {
+  width: 100%;
+  display: table;
+  clear: both;
+  content: "";
+  font-size: 0;
+}
+
+input[type="submit"] {
+  float: left;
+  padding: 18px 35px 16px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  background-color: #252525;
+  border: none;
+}
+
 /*  --- FOOTER ---   */
 .footer {
   padding: 90px 0 0;
@@ -372,4 +453,5 @@ h5 {
 
 .copyright {
   padding: 25px 0;
+  font-size: 14px;
 }

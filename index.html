@@ -176,8 +176,8 @@
   <section class="contact">
     <div class="container-wide">
       <div class="contact-info">
-        <h2>Contact info</h2>
-        <p>
+        <h2>Contact info:</h2>
+        <p class="form-info">
           Praesent interdum congue mauris, et fringilla lacus pel
           vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse
           vitae sapien at imperdiet risus. Quisque cursus risus id.
@@ -190,33 +190,16 @@
           <p><strong>Fax:</strong> +44 987 065 909</p>
         </div>
       </div>
-      <form>
-        <table class="contact-form">
-          <tr>
-            <td>
-              <input type="text" id="fullname" name="fullname" placeholder="Your Name">
-            </td>
-            <td>
-              <input type="email" id="email" name="email" placeholder="Your Email">
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <input type="text" id="title" name="title" placeholder="Your title">
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <textarea id="comment" name="comment" placeholder="Your comment"></textarea>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <input type="submit" class="btn-submit" value="send message">
-            </td>
-            <td></td>
-          </tr>
-        </table>
+      <form class="contact-form">
+        <div class="contact-form">
+          <div class="contact-form-1-row">
+            <input class="field" type="text" id="fullname" name="fullname" placeholder="Your Name">
+            <input class="field" type="email" id="email" name="email" placeholder="Your Email">
+          </div>
+          <input class="field" type="text" id="title" name="title" placeholder="Your title">
+          <textarea class="field" id="comment" name="comment" placeholder="Your comment"></textarea>
+          <input type="submit" class="btn-submit" value="send message">
+        </div>
       </form>
     </div>
   </section>
