@@ -241,7 +241,7 @@ h5 {
 
 /*  --- CLIENTS ---   */
 .clients {
-  padding: 64px 0;
+  padding: 64px 0 25px;
 }
 
 .clients-logos {
@@ -253,4 +253,123 @@ h5 {
 .client-logo {
   display: inline-block;
   padding: 0 35px;
+}
+
+/*  --- FOOTER ---   */
+.footer {
+  padding: 90px 0 0;
+  background-color: #0c0c0c;
+  color: #fff;
+}
+
+.footer-main {
+  display: table;
+  margin-bottom: 75px;
+  width: 100%;
+}
+
+.footer-item {
+  display: table-cell;
+  text-align: left;
+}
+
+.footer-main h4 {
+  padding-bottom: 36px;
+  line-height: 20px;
+}
+
+.footer-item-about p {
+  margin-bottom: 40px;
+}
+
+.social-btn {
+  display: inline-block;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.social-btn-fb {
+  width: 12px;
+  height: 19px;
+  background-image: url("../img/facebook.png");
+  background-repeat: no-repeat;
+}
+
+.social-btn-tw {
+  width: 19px;
+  height: 16px;
+  background-image: url("../img/twitter.png");
+  background-repeat: no-repeat;
+}
+
+.social-btn-gp {
+  width: 18px;
+  height: 20px;
+  background-image: url("../img/google_plus.png");
+  background-repeat: no-repeat;
+}
+
+.social-btn-be {
+  width: 22px;
+  height: 14px;
+  background-image: url("../img/behance.png");
+  background-repeat: no-repeat;
+}
+
+.social-btn-pin {
+  width: 19px;
+  height: 18px;
+  background-image: url("../img/pinterest.png");
+  background-repeat: no-repeat;
+}
+
+.social-btn-ig {
+  width: 19px;
+  height: 19px;
+  background-image: url("../img/instagram.png");
+  background-repeat: no-repeat;
+}
+
+.footer-item-about,
+.footer-item-twits {
+  width: 400px;
+  padding-right: 20px;
+}
+
+.footer-item-twits ul {
+  list-style: none;
+}
+
+.footer-item-twits li {
+  position: relative;
+  padding-left: 40px;
+}
+
+.footer-item-twits li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 19px;
+  height: 16px;
+  background-image: url("../img/twitter.png");
+  background-repeat: no-repeat;
+}
+
+.instagram-posts {
+  margin-left: -10px;
+  margin-right: -10px;
+  height: 180px;
+  border-spacing: 10px;
+}
+
+.instagram-photo {
+  display: block;
+  width: 85px;
+  height: 85px;
+  background-color: #7d7d7d;
+}
+
+.copyright {
+  padding: 25px 0;
 }
